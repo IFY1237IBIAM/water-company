@@ -1,0 +1,23 @@
+.service-card {
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+
+.service-card img {
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-card div.flex-1 {
+    align-items: center !important;
+  }
+}

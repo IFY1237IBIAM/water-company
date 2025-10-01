@@ -1,0 +1,38 @@
+.about-page h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.history-section img {
+  border-radius: 1rem;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.history-section img:hover {
+  transform: scale(1.05);
+}
+
+.mission-section, .values-section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-section:hover, .values-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .history-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .history-text {
+    md:w-full;
+  }
+  
+  .mission-section, .values-section {
+    text-align: center;
+  }
+}
