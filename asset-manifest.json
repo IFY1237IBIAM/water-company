@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/water-company/static/css/main.b54c3c7a.css",
+    "main.js": "/water-company/static/js/main.4e346ff1.js",
+    "static/media/water.webp": "/water-company/static/media/water.31d17f53f1bbc2756127.webp",
+    "static/media/consulting.webp": "/water-company/static/media/consulting.715c02a8573fe1c4372d.webp",
+    "static/media/history.webp": "/water-company/static/media/history.1a1ba902d91af40d964e.webp",
+    "static/media/residential.jpg": "/water-company/static/media/residential.e424dc9417298abccf1c.jpg",
+    "static/media/filtration.webp": "/water-company/static/media/filtration.dc6778d72677f47b2026.webp",
+    "index.html": "/water-company/index.html",
+    "main.b54c3c7a.css.map": "/water-company/static/css/main.b54c3c7a.css.map",
+    "main.4e346ff1.js.map": "/water-company/static/js/main.4e346ff1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54c3c7a.css",
+    "static/js/main.4e346ff1.js"
+  ]
+}
